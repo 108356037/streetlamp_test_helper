@@ -1,0 +1,43 @@
+# $thing/{THING_ID}/$cmd/conf/info
+info:
+  # ------ below commands are not immediately reported ------------
+  # ------ need to pull a report to check if success -------------- 
+  
+  #reboot: ""
+  #reconnect: ""
+  dev set rpt_sche: "1330:2300"
+  #dev set rpt_time: "20"
+  #dimming: "0"
+  #dimmingMP: "0"
+  #ota trigger: ""
+  #dev set mqtt_server: "mqtt://broker.insynerger.streetlightbroker.com:4883"
+  dev get report: ""
+ 
+  # #ota trigger: ""
+  # #nb ota trigger: ""
+  # #dev set id: ""
+  # #dev set apn:
+  # #dev set apn2
+  # #dev set mqtt_server
+  # #dev set rpt_time: "3600"
+  # #dev set ping_time
+  # #dev set rst_lmt
+  #
+  # #dev set pwr_delay: "60"
+  # #dev set pkt_delay: "60"
+  # dev set ota_server: "mqtt://mqtt.streetlight-fota.idc.oringnet.cloud:31883"
+  # dev set ota_token: "2c0313e9c409034cdfda"
+  #dev get all: ""
+  
+  dev get info: ""
+  dev get schedule: ""
+  #dev get lum_dimming: ""
+  #dev lock_band: ""
+  #dev unlock_band: ""
+
+# $thing/{THING_ID}/$cmd/conf/schedule
+schedule:
+
+# $thing/{THING_ID}/$cmd/conf/lum-dimming
+#lum-dimming:
+
